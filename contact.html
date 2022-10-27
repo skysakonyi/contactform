@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="sky.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+<!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html#design">Design</a>
+            <a class="nav-link disabled" href="/index.html#marketing">Marketing</a>
+            <a class="nav-link" href="index.html#about">About</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!--CONTACT INFO & FORM--> 
+    <div id="contact" class="container">
+      <h1>Contact Me</h1>
+      <hr>
+      <div class="row">
+        <div class="col col-lg-6 col-12">
+            <h2>Skylar Sakonyi</h2>
+            <a href="mailto:sky.sakonyi@gmail.com" target="_blank">
+                <img class="contact-icon" src="images/emailperiwinkle.svg" alt="email icon">
+            </a>
+            <a href="mailto:sky.sakonyi@gmail.com" target="_blank">sky.sakonyi@gmail.com</a>
+            <h2>Let's Connect</h2>
+            <a href="https://www.behance.net/skylarsakonyi" target="_blank">
+                <img class="contact-icon" src="images/behancepurple.svg" alt="behance icon">
+            </a>
+            <a href="https://www.linkedin.com/in/skylarsakonyi/" target="_blank">
+                <img class="link-contact-icon" src="images/linkedinorange.svg" alt="linkedin icon">
+            </a>
+        </div>
+        <div class="col col-lg-6 col-12">
+            <h2>Leave a Message</h2>
+            <form action="https://formsubmit.co/sky.sakonyi@gmail.com" method="post">
+            <div class="form-floating">
+                <input required type="text" class="form-control" id="floatingInput" placeholder="Name">
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating">
+                <input required type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
+                <label for="floatingInput">Subject</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea  required class="form-control" placeholder="Leave a message" id="floatingTextarea" rows="5"></textarea>
+                <label for="floatingTextarea">Message</label>
+              </div>
+            <input id="submitbtn" type="submit"></input>
+            </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<!--FOOTER-->
+<div id="footerfull">
+<div id="footer" class="container">
+  <div class="row row-cols-3">
+    <div class="col">
+      <h4>Contact</h4>
+  <!--icon row-->
+  <div class="row row-cols-6 text-white">
+    <div class="col">
+      <a href="mailto:sky.sakonyi@gmail.com" target="_blank">
+        <img class="footer-icon" src="images/emailwhite.svg" alt="email icon">
+      </a>
+    </div>
+    <div class="col">
+      <a href="https://www.behance.net/skylarsakonyi" target="_blank">
+        <img class="footer-icon" src="images/behancewhite.svg" alt="behance icon">
+      </a>
+    </div>
+    <div class="col">
+      <a href="https://www.linkedin.com/in/skylarsakonyi/" target="_blank">
+        <img class="link-footer-icon" src="images/linkedinwhite.svg" alt="linkedin icon">
+      </a>
+    </div>
+  </div>
+    </div>
+    <div class="col text-center">
+      <a href="index.html"><img src="images/whitelogo.png" alt="Sky Creative Logo" width="120"></a>
+    </div>
+    <div class="col text-white text-end">
+      <ul>
+        <li>
+          <a href="/index.html/#design">Design</a>
+        </li>
+        <li>
+          <a href="/index.html#marketing">Marketing</a>
+        </li>
+        <li>
+          <a href="index.html/#about">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
